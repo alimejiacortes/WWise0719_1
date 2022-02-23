@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A3985D7-DF42-48CC-8C4B-7EBE7CC62B80}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Diego Miranda" ID="{8A3985D7-DF42-48CC-8C4B-7EBE7CC62B80}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Diego SFX" ID="{C82C456B-67D2-49B1-B0E8-F7CFA7DD407E}" ShortID="976696275">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{182A5300-8458-407E-95C6-1A933642610E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="152"/>
+											<Property Name="Min" Type="Real64" Value="-152"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0164420D-79AC-41C9-8F38-32D285B5CA27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{205A61DB-11DA-4268-A8DA-CB90879A25D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dmt_122_arp_loop_easy_Cmaj" ID="{55E1E389-794B-4362-AA29-AFE89FD1A3AD}">
+							<Language>SFX</Language>
+							<AudioFile>dmt_122_arp_loop_easy_Cmaj.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="203258140"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="dmt_122_arp_loop_easy_Cmaj" ID="{55E1E389-794B-4362-AA29-AFE89FD1A3AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
