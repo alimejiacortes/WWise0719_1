@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A87065EA-1E6B-4EC3-AB52-74509C75B2E6}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="EmilioReyes" ID="{A87065EA-1E6B-4EC3-AB52-74509C75B2E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Loop_5Seg" ID="{D7182BD7-373B-4EF7-8628-2FF39EE1F297}" ShortID="41462125">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6D8F68C7-CFC0-4C9A-A0AB-E2A890BE039C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DEA0A355-B1C5-4AA3-82A9-2664E0DC86B1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F6BD9F7-3780-4EFA-B4D3-3AEA0B10E840}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Yumme_1Seg" ID="{F66953EE-02FD-4B01-875C-182AF6DB4524}">
+							<Language>SFX</Language>
+							<AudioFile>Yumme_1Seg.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="32820157"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Yumme_1Seg" ID="{F66953EE-02FD-4B01-875C-182AF6DB4524}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
