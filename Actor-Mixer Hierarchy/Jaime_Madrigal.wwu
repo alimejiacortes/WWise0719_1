@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53223C00-B3E1-4C27-A23B-7B02C017D2DB}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Jaime_Madrigal" ID="{53223C00-B3E1-4C27-A23B-7B02C017D2DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Shoot" ID="{7265AC24-18F8-493F-992D-3E076202DF4E}" ShortID="694695053">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{74A01ACD-5603-415B-A4B5-452512BB8CF9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="34"/>
+											<Property Name="Min" Type="Real64" Value="-32"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62BCB246-D60C-4FC6-9D17-7B821E69DD3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2CF0036F-E817-4A2C-9BC3-4D638A904D96}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shoot" ID="{B4CA1E1C-E06D-416E-8F25-C6B7300DF9DD}">
+							<Language>SFX</Language>
+							<AudioFile>Shoot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="586089127"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Shoot" ID="{B4CA1E1C-E06D-416E-8F25-C6B7300DF9DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
